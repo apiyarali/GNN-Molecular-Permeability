@@ -3,7 +3,7 @@
 ## Overview
 This project aims to determine whether certain molecules—caffeine, sucrose, D-glucose, fructose, and acetaminophen (Tylenol)—can pass the blood-brain barrier. To achieve this, we implement a _Message Passing Neural Network_ (MPNN), a type of Graph Neural Network (GNN), to predict the molecular property known as _blood-brain barrier permeability_ (BBBP).
 
-<img src="https://github.com/apiyarali/GNN-Molecular-Permeability/blob/617a4500ab9e7c697e6d4ac022ab6bac945a838d/screenshots/predicting.jpg" alt="predicting" width="300">
+<img src="https://github.com/apiyarali/GNN-Molecular-Permeability/blob/617a4500ab9e7c697e6d4ac022ab6bac945a838d/screenshots/predicting.jpg" alt="predicting" width="350">
 
 ## Motivation
 Molecules are naturally represented as undirected graphs, where atoms serve as nodes and chemical bonds as edges. GNNs, such as MPNNs, are increasingly proving useful for molecular property prediction.
@@ -15,7 +15,13 @@ Traditional machine learning methods—such as random forests and support vector
 - **MPNN Architecture:** We implement a message-passing neural network that:
   1. Aggregates information from neighboring atoms (message passing phase).
   2. Uses this information to predict whether a molecule can cross the blood-brain barrier.
+
+ <img src="https://github.com/apiyarali/GNN-Molecular-Permeability/blob/e06fd651624207e80fd4c4ba44c7c241028f4429/screenshots/mpnn.jpg" alt="mpnn" width="350">
+  
 - **Dataset:** A curated dataset of known BBB permeability values for different molecules.
+
+ <img src="https://github.com/apiyarali/GNN-Molecular-Permeability/blob/e06fd651624207e80fd4c4ba44c7c241028f4429/screenshots/mpnn_dataset.jpg" alt="dataset" width="350">
+  
 - **Frameworks Used:**
   - TensorFlow/Keras or PyTorch for deep learning.
   - RDKit for molecular data handling.
