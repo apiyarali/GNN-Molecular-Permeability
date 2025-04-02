@@ -3,6 +3,8 @@
 ## Overview
 This project aims to determine whether certain molecules—caffeine, sucrose, D-glucose, fructose, and acetaminophen (Tylenol)—can pass the blood-brain barrier. To achieve this, we implement a _Message Passing Neural Network_ (MPNN), a type of Graph Neural Network (GNN), to predict the molecular property known as _blood-brain barrier permeability_ (BBBP).
 
+<img src="https://github.com/apiyarali/GNN-Molecular-Permeability/blob/617a4500ab9e7c697e6d4ac022ab6bac945a838d/screenshots/predicting.jpg" alt="predicting" width="300">
+
 ## Motivation
 Molecules are naturally represented as undirected graphs, where atoms serve as nodes and chemical bonds as edges. GNNs, such as MPNNs, are increasingly proving useful for molecular property prediction.
 
